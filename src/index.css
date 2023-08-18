@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #683b2b;
+  text-decoration: none;
+}
+/*
+body {
+  background-image: url("https://img.freepik.com/free-vector/cute-pattern-with-dog-faces-bones_1191-1204.jpg?w=2000");
+  background-size: 25%;
+} */
+
+img {
+  max-width: 25vw;
+  height: 16vw;
+}
+
+h4 {
+  background-color: #ded1bd;
+  color: #683b2b;
+  border: 0.2vw solid #683b2b;
+  padding: 0.2vw;
+  border-radius: 1vw;
+  margin-bottom: 5px;
+}
+
+.navbar {
+  background-color: #ded1bd;
+  border: 0.2vw solid #683b2b;
+}
+
+div {
+  background-color: #97d277;
+  padding: .5vw;
+  margin-bottom: 1vw;
+  width: 75%;
+  display: inline-block;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+#root, .main, form {
+  border: 0.2vw solid #683b2b;
+  border-radius: 1vw;
+}
+
+button {
+  background-color: #a97e3d;
+  padding: 0.3vw;
+  border: 0.2vw solid #683b2b;
+  border-radius: 1vw;
+  margin-top: 5px;
+  font-size: 1.5vw;
+}
+
+button:hover, .navbar:hover {
+  background-color: #d49e8d;
+}
+
+label {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+form {
+  margin: 5px;
+  border: 0.2vw solid #683b2b;
+  padding: 1vw;
+  border-radius: 1vw;
+  margin-left: -5vw;
+  margin-right: -5vw;
+  background-color: #d49e8d;
+}
